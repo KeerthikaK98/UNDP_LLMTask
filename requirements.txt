@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+pdfplumber
+sentence-transformers
+faiss-cpu
+tqdm
