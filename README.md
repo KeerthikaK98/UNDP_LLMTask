@@ -118,7 +118,18 @@ To destroy the Docker Container:
 ```
 docker-compose down
 ```
+## Exploratory Data Analysis
 
+This project includes a Jupyter Notebook to extract insights and visualize it
+
+**To run eda.ipynb,**
+- Make sure virtual environment is activated.(If not activated, refer step 2 to activate it)
+- install Jupyter notebook if not done already:
+  ```bash
+  pip install notebook
+  ```
+
+- Open the eda.ipynb file in Virtual Studio Code and run all the cells 
 
 
 
