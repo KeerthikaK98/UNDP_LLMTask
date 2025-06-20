@@ -1,0 +1,21 @@
+services:
+  indexer:
+    build: .
+    command: python main.py
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+
+  app:
+    build: .
+    depends_on: 
+    - indexer
+    container_name: climate-qa-app
+    env_file: .env
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    command: streamlit run streamlit_app.py
