@@ -2,7 +2,7 @@ import os
 import re
 import fitz
 import requests
-import pdfplumber
+#import pdfplumber
 from bs4 import BeautifulSoup
 from sentence_transformers import SentenceTransformer
 import faiss
