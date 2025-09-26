@@ -1,5 +1,4 @@
-# UNDP_LLMTask
-# Climate Change and Financing for Development (FFD) June 2025
+# AI-Powered Climate Policy Analyzer using LLMs and RAG pipeline
 
 **Objective:**
 This repository provides a full-stack pipeline for exploring and evaluating Climate Change and Financing documents (FFD) using Local LLMs via Ollama.
